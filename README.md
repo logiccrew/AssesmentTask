@@ -1,17 +1,43 @@
-# React + Vite
+# 🚗 Car Listing Subscription & Device Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React-based UI application for managing **subscription plans**, **add-ons**, **payment card details**, and **device information**, with full **localStorage persistence**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 📌 Features
 
-## React Compiler
+### 🔹 Subscription System
+- Select subscription plans (Basic / Pro / Premium)
+- Choose add-ons (GPS, Insurance)
+- Enter card details (Card Number, Expiry, CVC)
+- Data persists in browser (localStorage)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+### 🔹 Device Management
+- Add multiple GPS devices (4 devices supported)
+- Store serial numbers
+- Toggle "own device" option
+- Upload device images (stored as Base64 for persistence)
+- Data persists across page reloads
 
-## Expanding the ESLint configuration
+### 🔹 Navigation
+- Multi-step sidebar navigation
+- Mobile-friendly dropdown menu
+- React Router navigation between pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# AssesmentTask
+---
+
+## 🧠 Tech Stack
+
+- React (Functional Components)
+- React Router DOM
+- Tailwind CSS
+- Lucide React Icons
+- Browser LocalStorage (no backend)
+
+---
+
+## 💾 Data Persistence
+
+All data is stored in browser localStorage.
+
+### 🔹 Subscription Storage Key
